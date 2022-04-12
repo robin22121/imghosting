@@ -41,16 +41,19 @@
             <a class="nav-link" href="#">Image Hosting</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="#">My Data</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#">login</a>
           </li>
         </ul>
       </div>
     </nav>
-
+    <!-- 업로드 영억 -->
     <div class="mt-5 container upload-container" id="width-container">
       <form action="/action_page.php">
         <fieldset>
-          <legend style="">이미지 업로드</legend>
+          <legend s>이미지 업로드</legend>
           <div class="row">
             <div class="mb-3 col-10">
               <input type="file" class="form-control" id="inputGroupFile01" />
@@ -63,9 +66,6 @@
       </form>
     </div>
 
-    이름<input type="text" class="name" /> 전화번호
-    <input type="text" class="number" />
-    <button type="submit" class="name-btn btn-primary">버튼</button>
     <div class="container mt-1">
       <p class="text">
         원하는 이미지 파일을 선택한 후
@@ -82,18 +82,24 @@
         버튼을 누르시면 호스팅된 이미지가 만들어집니다
       </p>
     </div>
+    <!-- 실험영역 -->
+    이름<input type="text" class="name" /> 전화번호
+    <input type="text" class="number" />
 
+    <button type="submit" class="name-btn2 btn-primary">버튼2</button>
+    <h1 class="test">dd</h1>
+    <h1 class="test2">ss</h1>
+    <!-- 퍼가기 -->
     <div class="copy container mt-5" id="width-container">
       <legend class="ms-1">퍼가기</legend>
       <div class="row">
-        <!-- 2-2. input:text 태그 -->
-
         <input type="text" class="title-copy col-11 ms-2" id="input_text" />
       </div>
       <p class="text mt-3 p-1">
         주소영역을 클릭하시면 이미지 주소가 복사됩니다.
       </p>
     </div>
+    <!-- 이미지 보여주기 -->
     <div class="image container image-container mt-5">이미지</div>
     <div class="link"></div>
     <!-- 파이어베이스 시작하기 -->
